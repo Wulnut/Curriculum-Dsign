@@ -58,7 +58,7 @@ int main()
 	    printf("%d\n",t);
 	}
 	return 0;
-}
+}//AC!!
 /*
 #include<iostream>
 #include<cstdio>

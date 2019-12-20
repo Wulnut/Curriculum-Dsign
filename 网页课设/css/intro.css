@@ -1,0 +1,95 @@
+@charset "utf-8";
+body{
+    margin:0 atuo;
+    padding:0;
+}
+
+.intro-Team {
+    text-align:center;
+    overflow: hidden;
+    background-color:#f4f4f4;
+}
+.intro-Team p{
+    color:#787976;
+}
+.team-member{
+    overflow: hidden;
+    margin-top:50px;
+    margin-bottom: 100px;
+}
+.team-member img{
+    border-radius: 10px;
+}
+
+.team-member .intro-first{
+    float:left;
+    margin-left:40px;
+    width:20%;
+}
+
+.team-member .intro-second{
+    float:left;
+    margin-left:40px;
+    width:20%;
+}
+
+.team-member .intro-third{
+    float:left;
+    margin-left:40px;
+    width:20%;
+}
+
+.team-member .intro-fourth{
+    float:left;
+    margin-left:40px;
+    width:20%;
+}
+
+.intro-ABOUT{
+    margin-top:100px;
+    margin-left:300px;
+}
+.intro-ABOUT img{
+    margin-bottom: 20px;
+    float: left;
+    border-radius: 5px;
+}
+
+.intro-text{
+    width:500px;
+    margin-left:80px;
+    float: left;
+}
+.intro-text span{
+    color:#14bf98;
+}
+.intro-text p{
+    color:#787976;
+}
+.intro-text #p1{
+    margin-top:50px;
+    font-size: 18px;
+    color:#000;
+}
+
+.counter{
+    margin-left: 30px;
+    margin-top:130px;
+    overflow: hidden;
+}
+.cell{
+    float: left;
+    margin-right:20px;
+}
+.counter-value-number-count{
+    color:#14bf98;
+    font-size: 40px;
+    float: left;
+}
+.counter-info{
+    color:#787976;
+    margin-top:5px;
+    margin-left:10px;
+    float: left;
+}
+

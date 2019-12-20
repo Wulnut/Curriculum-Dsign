@@ -1,0 +1,75 @@
+@charset "utf-8";
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../img/man-in-black-crew-neck-t-shirt-3140063.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+.login-sign-up{
+    background-color:rgba(255, 255, 255, 0.822);
+    width:300px;
+    /*background-color: #ffff;*/
+    padding:20px;
+    margin:8% auto 0;
+    text-align: center;
+}
+
+.login-sign-up h1{
+    color:#1c8adb;
+    margin-bottom:30px;
+}
+.input-box{
+    border-radius: 20px;
+    padding:10px;
+    margin:10px 0;
+    width:90%;
+    border:1px solid #999;
+    outline: none;
+}
+
+button {
+    color:#fff;
+    width:100%;
+    padding:10px;
+    border-radius:20px;
+    font-size:15px;
+    margin:10px 0;
+    border:none;
+    outline:none;
+    cursor: pointer;
+}
+
+.signup-btn{
+    background-color:#1c8adb;
+}
+.signup-btn:hover{
+    background-color:#14bf98;
+}
+
+.Wibo-btn{
+    background-color: #21afde;
+}
+.Wibo-btn:hover{
+    background-color:#14bf98;
+}
+
+a{
+    text-decoration: none;
+}
+
+hr{
+    margin-top:20px;
+    width:80%;
+    background-color:rgb(255, 255, 255);
+}
+.or{
+    background-color:rgb(255, 255, 255,0.822);
+    width:30px;
+    margin: -19px auto 10px;
+}
+
+#login-container4{
+    bottom:fixed;
+}

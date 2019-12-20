@@ -3,38 +3,38 @@ body{
     margin: 0px;
     padding: 0px;
 }
-.container{
+.index-container{
     height: auto;
     width: 100%;
     background-color: #117c6f;
     overflow: hidden;
 }
-.container img{
+.index-container img{
     float: left;
     width:5%;
     margin-left: 30px;
 }
-.container1{
+.index-container1{
     float: left;
     width:30%;
     margin-left:60%;
     margin-top:50px;
 }
-.container1 ul{
+.index-container1 ul{
     margin:0 auto;
     list-style: none;
     overflow: hidden;
 }
-.container1 li{
+.index-container1 li{
     float:left;
     margin-right: 2%;
     overflow: hidden;    
 }
-.container1 li a{
+.index-container1 li a{
     text-decoration: none;
     color: #000000;
 }
-.container1 li a:hover{
+.index-container1 li a:hover{
     color:#73c088;
 }
 
@@ -76,7 +76,6 @@ body{
 }
 
 .container3{
-    background-color: #83bbff;
     overflow: hidden;
 }
 .first{
@@ -117,13 +116,13 @@ body{
     width:15%;
 }
 
-.container4{
+.index-container4{
+    background-color: #f4f4f4;
     width: 100%;
     text-align: center;
-    background-color: #c6cdff;
     overflow: hidden;
 }
-.container4 span{
+.index-container4 span{
     display: block;
     margin-top:27px;
     padding:20px;

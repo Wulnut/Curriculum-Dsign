@@ -1,0 +1,106 @@
+@charset "utf-8";
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.servers-container {
+    padding:40px;
+    background-color:#f4f4f4;
+    overflow: hidden;
+}
+
+.servers-container .servers-intro{
+    margin-left: 10%;
+    width:35%;
+    float:left;
+}
+
+.servers-container #intro{
+    color:#14bf98/*特殊颜色*/
+}
+
+.servers-container .servers-intro p{
+    color:#787976;
+}
+
+
+.servers-container .servers-image-container{
+    margin-left: 10%;
+    width:35%;
+    float:left;
+}
+
+.servers-container .servers-image-container {
+	overflow: hidden;
+	border-radius: 0.25rem;
+}
+
+.servers-container .servers-image-container img {
+	margin: 0;
+	border-radius: 0.25rem;
+	transition: all 0.3s;
+}
+
+.servers-container .servers-image-container:hover img {
+	-moz-transform: scale(1.15);
+	-webkit-transform: scale(1.15);
+	transform: scale(1.15);
+}/*鼠标移动效果*/
+
+.servers-serverinfor{
+    overflow: hidden;
+}
+
+.servers-serverinfo .servers-title p{
+    font-size:18px;
+    color:#14bf98;
+    text-align: center;
+}
+.servers-serverinfo .servers-title h2{
+    text-align: center;
+}
+
+.servers-serverinfo .servers-first{
+    margin-left: 8%;
+    width:25%;
+    float:left;
+    color:#787976;
+}
+.servers-serverinfo .servers-first img{
+    width:100%;
+}
+.servers-serverinfo .servers-first-text h3{
+    color:#000;
+    text-align: left;
+}
+
+
+.servers-serverinfo .servers-second{
+    margin-left: 8%;
+    width:25%;
+    float:left;
+    color:#787976;
+}
+.servers-serverinfo .servers-second img{
+    width:100%;
+}
+.servers-serverinfo .servers-second-text h3{
+    color:#000;
+    text-align: left;
+}
+
+
+.servers-serverinfo .servers-last{
+    margin-left: 8%;
+    width:25%;
+    float: left;
+    color:#787976;
+}
+.servers-serverinfo .servers-last img{
+    width:100%;
+}
+.servers-serverinfo .servers-last-text h3{
+    color:#000;
+    text-align: left;
+}
